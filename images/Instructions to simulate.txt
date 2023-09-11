@@ -1,0 +1,15 @@
+first of all the 
+admin has a 
+username: admin
+password: serenity
+
+admin has access to the whole AAS system. An admin can add or remove students and teachers.
+admin also has an access to add new courses, and lectures. 
+add new students.
+to take an attendance, the admin has to upload a timetable in the lectures tab.
+then a lecture must have some students added to it.
+for detailed information visit the chapter 6, AAS FYP report
+
+many other profiles are created such as
+username: Mohsin Yousaf
+password: mohsinyousaf123
