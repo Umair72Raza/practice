@@ -18,9 +18,8 @@ nav{
   width:100%;
   background-color: #4158D0;
   background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-
-
 }
+
 nav .ref{
   list-style-type: none;
   display:inline-flex;
@@ -95,6 +94,7 @@ h2 {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  padding-bottom: 128px;
 }
 
 .card{
@@ -116,4 +116,45 @@ h2 {
 
 .card:hover{
   transform: scale(1.125);
+}
+
+nav a:hover{
+  color:aliceblue;
+  background-color: #C850C0;
+  border-radius: 5px;;
+    transform: scale(1.125);
+
+}
+
+@media only screen and (max-width:850px){
+
+  nav .logo{
+    display: none;
+  }
+  nav{
+    justify-content: center;
+  }
+  nav .ref {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+}
+
+@media only screen and (max-width:510px){
+
+  nav .logo{
+    display: none;
+  }
+  nav .ref {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    height:50%;
+}
+.ref li{
+  font-size: 70%;
+}
 }

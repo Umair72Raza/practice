@@ -4,24 +4,69 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="prtstyle.css">
-        <title>Tech Solutions</title>
+        <title>Portfolio</title>
   </head>
 
+  <nav>
+    <div class="logo">
+         <img class="bkg" src="/images/A.png" alt="logo" height="auto" width="100px">
+    </div>
+    <div class="links">
+          <ul class="ref">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/resources1/index.html">About</a></li>
+          <li><a href="/Contact/index.html">Contact</a></li>
+          <li><a href="#">Portfolio</a></li>
+          </ul>
+    </div>
+  </nav>
 
   <body>
-    <nav>
-      <div class="logo">
-       <img class="bkg" src="/images/A.png" alt="logo" height="auto" width="100px">
-      </div>
-      <div class="links">
-        <ul class="ref">
-          <li><a href="#">Home</a></li>
-          <li><a href="./resources1/index.html">About</a></li>
-          <li><a href="./Contact/index.html">Contact</a></li>
-          <li><a href="./portfolio/index.html">Portfolio</a></li>
-        </ul>
-      </div>
-    </nav>
+
+    <div class="projects">
+        <div class="proj1">
+            <h3>IoT based Home Automation</h3>
+            <img id="prjimg" src="/portfolio/images/IoT Automation.jpg" alt="iot" height="250px" width="300px">
+
+        </div>
+        <div class="proj1-desc">
+            <p>An ESP32-based home automation system leverages the ESP32 microcontroller's
+                capabilities to create a versatile and efficient smart home solution. Here's a concise summary:
+                Wireless Control: ESP32 enables wireless connectivity, allowing users to remotely control and 
+                monitor various home devices, such as lights, appliances, and sensors.          
+                IoT Integration: It seamlessly integrates with the Internet of Things (IoT) ecosystem,
+                 enabling real-time data exchange and automation via Wi-Fi or Bluetooth connections.                
+                Customizable and Expandable: Users can customize and expand the system by adding sensors,
+                 actuators, and interfaces, providing flexibility to tailor it to specific needs.                
+                Energy Efficiency: The ESP32's low-power features enhance energy efficiency, making it
+                 suitable for battery-powered or energy-conscious applications within the smart home.
+                User-Friendly Interface: Home automation systems built on ESP32 often come with
+                 user-friendly mobile apps or web interfaces for easy setup, control, and automation of smart home devices.
+                </p>
+
+        </div>
+
+        <div class="proj2">
+            <h3>Image Classifier using ResNET52 Machine Learning Algo</h3>
+            <img id="prjimg" src="./images/nature-gb552fa0aa_640.jpg" alt="flower" height="250px" width="300px">
+
+        </div>
+
+        <div class="proj2-desc">
+            <p>     A flower breed classifier using Resnet34 is a deep learning model that recognizes different
+                 flower breeds from images. It employs the Resnet34 architecture for accurate classification,
+                  utilizing transfer learning on a diverse dataset. After preprocessing and feature extraction,
+                   it assigns probabilities to different breeds through a softmax layer. This model can be 
+                   deployed in various applications, including flower identification in horticulture and mobile
+                    apps, providing valuable tools for enthusiasts and professionals alike.
+                </p>
+        </div>
+
+
+
+
+    </div>
+
     
     
 </body>

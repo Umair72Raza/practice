@@ -1,4 +1,10 @@
+html
+{background-color: #A9C9FF;
+  background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+  
+  font-family: serif;
 
+}
 nav{
     display: flex;
     flex-direction: row;
@@ -6,11 +12,8 @@ nav{
     position: fixed;
     justify-content:space-between;
     border-radius: 5px;
-
-
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-
 
 }
 nav .ref{
@@ -44,7 +47,7 @@ a:link {
   }
   
   a:visited {
-    color: khaki;
+    color: rgb(44, 30, 12);
     background-color: transparent;
     text-decoration: none;
   }
@@ -59,4 +62,66 @@ a:link {
     color: yellow;
     background-color: transparent;
     text-decoration: underline;
+  }
+
+  .projects{
+    padding-top: 100px;
+    gap:10px;
+    display: grid;
+    grid-template: repeat(5, 1fr)/repeat(5, 1fr);
+    padding-left: 5%;
+    padding-right:5%;
+    grid-template-columns: auto;
+  }
+
+  #prjimg{
+    border-radius: 30px;
+  }
+
+  .proj1{
+    text-align: center;
+    grid-column: 1/span 2;
+    grid-row: 1/1;
+  }
+
+  .proj1-desc{
+    text-align: center;
+    padding-top: 10%;;
+    grid-column: 3/span 3;
+    grid-row: 1/1;
+  }
+
+  .proj2{
+    text-align: center;
+    grid-column: 1/span 2;
+    grid-row: 2/span 1;
+  }
+  .proj2-desc{
+    text-align: center;
+    padding-top: 10%;;
+    grid-column: 3/span 3;
+    grid-row: 2/span 3;
+  }
+
+  h3{
+    color:darkgreen;
+  }
+
+
+  a:hover{
+    color:aliceblue;
+    background-color: #C850C0;
+    border-radius: 5px;;
+      transform: scale(1.125);
+
+  }
+
+  @media only screen and (max-width:850px){
+    .projects{
+      display: block;
+    }
+    nav .logo{
+      display: none;
+    }
+
   }
